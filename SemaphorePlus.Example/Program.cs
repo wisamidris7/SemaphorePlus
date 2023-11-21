@@ -1,11 +1,11 @@
 ﻿using SemaphorePlus;
 
-var semaphoreSlimDelayed = new SemaphoreSlimDelayed(360, 1 * 60 * 1000);
+var semaphoreSlimDelayed = new SemaphoreSlimDelayed(3, 10000);
 semaphoreSlimDelayed.Init();
 
 foreach (var item in Enumerable.Range(0, 1000))
 {
-    await Task.Delay(Random.Shared.Next(10, 20));
+    await Task.Delay(Random.Shared.Next(100, 200));
     Task.Run(async () =>
     {
         Console.WriteLine("I'm Started " + item.ToString());
@@ -13,7 +13,6 @@ foreach (var item in Enumerable.Range(0, 1000))
         Console.ForegroundColor = ConsoleColor.Red;
         Console.WriteLine("I'm Have Been Done " + item.ToString());
         Console.ForegroundColor = ConsoleColor.White;
-
     });
 }
 

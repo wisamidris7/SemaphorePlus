@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemaphorePlus", "SemaphorePlus\SemaphorePlus.csproj", "{0378C385-1A27-4803-A996-254DBEEC2320}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemaphorePlus.Example", "SemaphorePlus.Example\SemaphorePlus.Example.csproj", "{22646B6A-24D5-48A2-9FE1-D7F8B4D07AD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemaphorePlus", "SemaphorePlus\SemaphorePlus.csproj", "{4E447081-B406-4D23-8CF1-5572D13C0EB3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0378C385-1A27-4803-A996-254DBEEC2320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0378C385-1A27-4803-A996-254DBEEC2320}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0378C385-1A27-4803-A996-254DBEEC2320}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0378C385-1A27-4803-A996-254DBEEC2320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22646B6A-24D5-48A2-9FE1-D7F8B4D07AD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22646B6A-24D5-48A2-9FE1-D7F8B4D07AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22646B6A-24D5-48A2-9FE1-D7F8B4D07AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22646B6A-24D5-48A2-9FE1-D7F8B4D07AD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E447081-B406-4D23-8CF1-5572D13C0EB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E447081-B406-4D23-8CF1-5572D13C0EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E447081-B406-4D23-8CF1-5572D13C0EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E447081-B406-4D23-8CF1-5572D13C0EB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
